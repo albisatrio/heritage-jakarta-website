@@ -1,0 +1,780 @@
+@prefix : <http://heritage.jakarta.go.id/resource/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Acara_Christmas_in_Jakarta_Menyongsong_5_Abad_Jakarta_Jati_Diri_Nusantara_Meretas_Metropolis_Global a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Lippo Mall Puri",
+        "Petak Enam, Jalan Pancoran No. 43, Glodok, Kota Adm. Jakarta Barat" ;
+    rdfs:comment "Event Acara Christmas in Jakarta “Menyongsong 5 Abad Jakarta Jati Diri Nusantara, Meretas Metropolis Global” diselenggarakan di Lippo Mall Puri"@id,
+        "Event Acara Christmas in Jakarta “Menyongsong 5 Abad Jakarta Jati Diri Nusantara, Meretas Metropolis Global” diselenggarakan di Petak Enam, Jalan Pancoran No. 43, Glodok, Kota Adm. Jakarta Barat"@id .
+
+:Acara_IRAMA_JAKARTA_Indahnya_RAmadan_bersaMA_JAKARTA a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Jembatan Budaya Kali Besar Kota Tua" ;
+    rdfs:comment "Event Acara IRAMA JAKARTA “Indahnya RAmadan bersaMA JAKARTA” diselenggarakan di Jembatan Budaya Kali Besar Kota Tua"@id .
+
+:Acara_NUSANTARA_JAKARTA_NUansa_SANTAi_lebaRAn_di_JAKARTA a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Pelataran Museum Fatahillah, Kota Administrasi Jakarta Barat" ;
+    rdfs:comment "Event Acara NUSANTARA JAKARTA “NUansa SANTAi lebaRAn di JAKARTA diselenggarakan di Pelataran Museum Fatahillah, Kota Administrasi Jakarta Barat"@id .
+
+:Acara_Pemberdayaan_Pelaku_Ekonomi_Kreatif_di_Ruang_Publik_dan_Destinasi_Wisata_Urban a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "UPK PBB Setu Babakan" ;
+    rdfs:comment "Event Acara Pemberdayaan Pelaku Ekonomi Kreatif di Ruang Publik dan Destinasi Wisata Urban diselenggarakan di UPK PBB Setu Babakan"@id .
+
+:Agenda_Nobar_Film_Hasil_Seleksi_Jakarta_Film_Week a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Taman Fatahillah" ;
+    rdfs:comment "Event Agenda Nobar Film Hasil Seleksi Jakarta Film Week diselenggarakan di Taman Fatahillah"@id .
+
+:Atap_Gedung_A_dan_C_Museum_Bahari a dbo:HistoricBuilding,
+        schema1:LandmarksOrHistoricalBuildings,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Pasar Ikan I No. 1" ;
+    rdfs:comment "Atap Gedung A dan C Museum Bahari adalah cagar budaya di Jl. Pasar Ikan I No. 1"@id .
+
+:Awarding_Festival_Film_Pendek a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Museum Kebangkitan Nasional, Senen" ;
+    rdfs:comment "Event Awarding Festival Film Pendek diselenggarakan di Museum Kebangkitan Nasional, Senen"@id .
+
+:Bangunan_Kementerian_ESDM a dbo:HistoricBuilding,
+        schema1:LandmarksOrHistoricalBuildings,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Medan Merdeka Selatan Nomor 18" ;
+    rdfs:comment "Bangunan Kementerian ESDM adalah cagar budaya di Jl. Medan Merdeka Selatan Nomor 18"@id .
+
+:Bangunan_di_Jl_Kalibesar_Barat_Nomor_40 a dbo:HistoricBuilding,
+        schema1:LandmarksOrHistoricalBuildings,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Kalibesar Barat Nomor 40" ;
+    rdfs:comment "Bangunan di Jl. Kalibesar Barat Nomor 40 adalah cagar budaya di Jl. Kalibesar Barat Nomor 40"@id .
+
+:Bangunan_di_Jl_Kalibesar_Timur_No_1_dan_2 a dbo:HistoricBuilding,
+        schema1:LandmarksOrHistoricalBuildings,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Kalibesar Timur No. 1 dan 2" ;
+    rdfs:comment "Bangunan di Jl. Kalibesar Timur No. 1 dan 2 adalah cagar budaya di Jl. Kalibesar Timur No. 1 dan 2"@id .
+
+:Bank_Mandiri_Pintu_Jalan_Pintu_Besar_Utara_No3 a dbo:HistoricBuilding,
+        schema1:LandmarksOrHistoricalBuildings,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Pintu Besar Utara Nomor 3" ;
+    rdfs:comment "Bank Mandiri Pintu Jalan Pintu Besar Utara No.3 adalah cagar budaya di Jl. Pintu Besar Utara Nomor 3"@id .
+
+:Bank_Mandiri_Pintu_Jalan_Pintu_Besar_Utara_No5 a dbo:HistoricBuilding,
+        schema1:LandmarksOrHistoricalBuildings,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Pintu Besar Utara Nomor 5" ;
+    rdfs:comment "Bank Mandiri Pintu Jalan Pintu Besar Utara No.5 adalah cagar budaya di Jl. Pintu Besar Utara Nomor 5"@id .
+
+:Cap_Gomeh_Old_Shanghai a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Old Shanghai, Sedayu City" ;
+    rdfs:comment "Event Cap Gomeh Old Shanghai diselenggarakan di Old Shanghai, Sedayu City"@id .
+
+:Dukungan_Acara_Bazar_Tingkat_Kota_Administrasi_Jakarta_Barat a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "KPP Pratama Kebon Jeruk 1, Kelurahan Kebon Jeruk, Kecamatan Kebon Jeruk, Jakarta Barat" ;
+    rdfs:comment "Event Dukungan Acara Bazar Tingkat Kota Administrasi Jakarta Barat diselenggarakan di KPP Pratama Kebon Jeruk 1, Kelurahan Kebon Jeruk, Kecamatan Kebon Jeruk, Jakarta Barat"@id .
+
+:Dukungan_Acara_Bimbingan_Teknis_Industri_Pariwisata_Pengembangan_Industri_Pariwisata_Menuju_Kota_Global_dan_Berbudaya a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Hotel CIputra Jakarta, Jl. Letjen S. Parman, Kel. Tj. Duren Utara, Kec. Grogol Petamburan, Jakarta Barat" ;
+    rdfs:comment "Event Dukungan Acara Bimbingan Teknis Industri Pariwisata “Pengembangan Industri Pariwisata Menuju Kota Global dan Berbudaya” diselenggarakan di Hotel CIputra Jakarta, Jl. Letjen S. Parman, Kel. Tj. Duren Utara, Kec. Grogol Petamburan, Jakarta Barat"@id .
+
+:Dukungan_Acara_Festival_Bunga_Rawabelong_2024 a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Pasar Bunga Rawabelong, Jl. Sulaiman No. 50, Kel. Sukabumi Utara, Kec. Kebon Jeruk, Jakarta Barat" ;
+    rdfs:comment "Event Dukungan Acara Festival Bunga Rawabelong 2024 diselenggarakan di Pasar Bunga Rawabelong, Jl. Sulaiman No. 50, Kel. Sukabumi Utara, Kec. Kebon Jeruk, Jakarta Barat"@id .
+
+:Dukungan_Acara_Pembukaan_Semarak_Bazar_Gelar_Produk_Dekranasda_Jakarta_Barat_dalam_Event_Jakarta_Great_Sale_2025 a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Mall Puri Indah, Kembangan, Jakarta Barat" ;
+    rdfs:comment "Event Dukungan Acara Pembukaan Semarak Bazar Gelar Produk Dekranasda Jakarta Barat dalam Event Jakarta Great Sale 2025 diselenggarakan di Mall Puri Indah, Kembangan, Jakarta Barat"@id .
+
+:Dukungan_Acara_Semarak_Ramadhan_di_Jakarta_Barat a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Halaman Kantor Walikota Kota Adm Jakarta Barat, Jalan Raya Kembangan No. 2 Jakarta Barat" ;
+    rdfs:comment "Event Dukungan Acara Semarak Ramadhan di Jakarta Barat diselenggarakan di Halaman Kantor Walikota Kota Adm Jakarta Barat, Jalan Raya Kembangan No. 2 Jakarta Barat"@id .
+
+:Dukungan_Acara_Teras_Festival a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Taman Fatahillah, Kota Tua, Jakarta Barat" ;
+    rdfs:comment "Event Dukungan Acara Teras Festival diselenggarakan di Taman Fatahillah, Kota Tua, Jakarta Barat"@id .
+
+:Dukungan_Art_Market_Exhibition a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Museum Maritim Indonesia, Pelabuhan Tj. Priok" ;
+    rdfs:comment "Event Dukungan Art Market Exhibition diselenggarakan di Museum Maritim Indonesia, Pelabuhan Tj. Priok"@id .
+
+:Dukungan_Festival_Drumer_Nusantara a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Pasar Seni Ancol" ;
+    rdfs:comment "Event Dukungan Festival Drumer Nusantara diselenggarakan di Pasar Seni Ancol"@id .
+
+:Dukungan_Festival_Jakarta_Great_Sale a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Mall Artha Gading" ;
+    rdfs:comment "Event Dukungan Festival Jakarta Great Sale diselenggarakan di Mall Artha Gading"@id .
+
+:Dukungan_Festival_Jalan_Daud_V a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Jalan Daud Raya RW 008, Kel. Sukabumi Utara, Kec. Kebon Jeruk, Jakarta Barat" ;
+    rdfs:comment "Event Dukungan Festival Jalan Daud V diselenggarakan di Jalan Daud Raya RW 008, Kel. Sukabumi Utara, Kec. Kebon Jeruk, Jakarta Barat"@id .
+
+:Dukungan_Glimmering_Ramadhan a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Mall Artha Gading" ;
+    rdfs:comment "Event Dukungan Glimmering Ramadhan diselenggarakan di Mall Artha Gading"@id .
+
+:Dukungan_HBKB a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Danau Sunter" ;
+    rdfs:comment "Event Dukungan HBKB diselenggarakan di Danau Sunter"@id .
+
+:Dukungan_Hari_Gizi a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "SMK 23 Jakarta" ;
+    rdfs:comment "Event Dukungan Hari Gizi diselenggarakan di SMK 23 Jakarta"@id .
+
+:Dukungan_Lebaran_Betawi a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Monas" ;
+    rdfs:comment "Event Dukungan Lebaran Betawi diselenggarakan di Monas"@id .
+
+:Dukungan_Pasar_Kreatif_Bulan_Ramadhan a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Taman Gorontalo" ;
+    rdfs:comment "Event Dukungan Pasar Kreatif Bulan Ramadhan diselenggarakan di Taman Gorontalo"@id .
+
+:Dukungan_Pengisi_Acara_dalam_RapimRakorwil_Tingkat_Kota_Adm_Jakarta_Barat a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Ruang Ali Sadikin, Kantor Walikota Kota Adm Jakarta Barat" ;
+    rdfs:comment "Event Dukungan Pengisi Acara dalam Rapim/Rakorwil Tingkat Kota Adm. Jakarta Barat diselenggarakan di Ruang Ali Sadikin, Kantor Walikota Kota Adm Jakarta Barat"@id .
+
+:Dukungan_Pentas_Literasi a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Pendopo Kantor Walikota Jakarta Utara" ;
+    rdfs:comment "Event Dukungan Pentas Literasi diselenggarakan di Pendopo Kantor Walikota Jakarta Utara"@id .
+
+:Dukungan_RUNCING_x_SMPN_290 a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Rumah Si Pitung Marunda" ;
+    rdfs:comment "Event Dukungan RUNCING x SMPN 290 diselenggarakan di Rumah Si Pitung Marunda"@id .
+
+:Dukungan_Senam_Primadona a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Hal. Plaza Barat Walikota Jakarta Utara",
+        "Walikota Jakarta Utara" ;
+    rdfs:comment "Event Dukungan Senam Primadona diselenggarakan di Hal. Plaza Barat Walikota Jakarta Utara"@id,
+        "Event Dukungan Senam Primadona diselenggarakan di Walikota Jakarta Utara"@id .
+
+:Dukungan_acara_BazarPasar_Murah_Tingkat_Kota_Administrasi_Jakarta_Barat_Tahun_2024 a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Halaman Parkir Sisi Selatan Kantor Walikota Kota Administrasi Jakarta Barat" ;
+    rdfs:comment "Event Dukungan acara Bazar/Pasar Murah Tingkat Kota Administrasi Jakarta Barat Tahun 2024 diselenggarakan di Halaman Parkir Sisi Selatan Kantor Walikota Kota Administrasi Jakarta Barat"@id .
+
+:Dukungan_acara_Bazar_Jakarta_Entrepreneur_Kecamatan_Taman_Sari_dalam_rangka_merayakan_HUT_Kota_Jakarta_dan_Lomba_Fashion_Show_dari_Bahan_Daur_Ulang_dan_Lomba_Handycraft_dari_Bahan_Daur_Ulang a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Halaman Kantor Kecamatan Tamansari, Kota Administrasi Jakarta Barat" ;
+    rdfs:comment "Event Dukungan acara Bazar Jakarta Entrepreneur Kecamatan Taman Sari (dalam rangka merayakan HUT Kota Jakarta) dan Lomba Fashion Show dari Bahan Daur Ulang dan Lomba Handycraft dari Bahan Daur Ulang diselenggarakan di Halaman Kantor Kecamatan Tamansari, Kota Administrasi Jakarta Barat"@id .
+
+:Dukungan_acara_Dekranasda_Jakarta_Barat_Goes_to_Mall_Dekranasda_Jakarta_Barat_Merajut_Kemerdekaan_Menggenggam_Kreatifitas_Lokal a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Puri Indah Mall, Kota Administrasi Jakarta Barat" ;
+    rdfs:comment "Event Dukungan acara Dekranasda Jakarta Barat Goes to Mall (Dekranasda Jakarta Barat Merajut Kemerdekaan, Menggenggam Kreatifitas Lokal) diselenggarakan di Puri Indah Mall, Kota Administrasi Jakarta Barat"@id .
+
+:Dukungan_acara_Dendang_Merdeka_Kota_Tua_Peringatan_HUT_ke79_Kemerdekaan_RI a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Taman Fatahillah Kota Tua, Kota Administrasi Jakarta Barat" ;
+    rdfs:comment "Event Dukungan acara Dendang Merdeka @Kota Tua (Peringatan HUT ke-79 Kemerdekaan RI) diselenggarakan di Taman Fatahillah Kota Tua, Kota Administrasi Jakarta Barat"@id .
+
+:Dukungan_acara_Festival_Disabilitas_Dalam_Rangka_Hari_Disabilitas_Internasional_dengan_Tema_Berkarya_bersama_Mewujudkan_Kesetaraan a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "RPTRA Cempaka Jl.Cempaka Raya No.1 Rt 2 Rw 12, Kel. Rawa Buaya Kec. Cengkareng Jakarta Barat" ;
+    rdfs:comment "Event Dukungan acara Festival Disabilitas Dalam Rangka Hari Disabilitas Internasional dengan Tema Berkarya bersama Mewujudkan Kesetaraan diselenggarakan di RPTRA Cempaka Jl.Cempaka Raya No.1 Rt 2 Rw 12, Kel. Rawa Buaya Kec. Cengkareng Jakarta Barat"@id .
+
+:Dukungan_acara_Festival_Seni_Budaya_Betawi_2024 a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Hutan Kota Srengseng, Jl. H. Kelik, Srengseng, Kec. Kembangan" ;
+    rdfs:comment "Event Dukungan acara Festival Seni Budaya Betawi 2024 diselenggarakan di Hutan Kota Srengseng, Jl. H. Kelik, Srengseng, Kec. Kembangan"@id .
+
+:Dukungan_acara_HUT_Kota_Jakarta_ke498_Tingkat_Kota_Administrasi_Jakarta_Barat_Semarak_Jakarta_Barat_2025 a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Halaman Gedung B, Kantor Walikota Kota Adm Jakarta Barat" ;
+    rdfs:comment "Event Dukungan acara HUT Kota Jakarta ke-498 Tingkat Kota Administrasi Jakarta Barat (Semarak Jakarta Barat 2025) diselenggarakan di Halaman Gedung B, Kantor Walikota Kota Adm Jakarta Barat"@id .
+
+:Dukungan_acara_Hari_Bebas_Kendaraan_Bermotor_HBKB_Terbatas_Tingkat_Kota_Administrasi_Jakarta_Barat a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Jalan Puri Indah Raya, Kel. Kembangan Selatan, Kec. Kembangan, Kota Adm Jakarta Barat",
+        "Jalan Puri Indah Raya, Kel. Kembangan Selatan, Kec. Kembangan, Kota AdmJakarta Barat",
+        "Jalan Puri Indah Raya, Kel. Kembangan Selatan, Kec. Kembangan, Kota Administrasi Jakarta Barat",
+        "Jalan Tomang Raya Kel. Jatipulo, Kec. Palmerah, Kota Adm. Jakarta Barat" ;
+    rdfs:comment "Event Dukungan acara Hari Bebas Kendaraan Bermotor (HBKB) Terbatas Tingkat Kota Administrasi Jakarta Barat diselenggarakan di Jalan Puri Indah Raya, Kel. Kembangan Selatan, Kec. Kembangan, Kota Adm Jakarta Barat"@id,
+        "Event Dukungan acara Hari Bebas Kendaraan Bermotor (HBKB) Terbatas Tingkat Kota Administrasi Jakarta Barat diselenggarakan di Jalan Puri Indah Raya, Kel. Kembangan Selatan, Kec. Kembangan, Kota AdmJakarta Barat"@id,
+        "Event Dukungan acara Hari Bebas Kendaraan Bermotor (HBKB) Terbatas Tingkat Kota Administrasi Jakarta Barat diselenggarakan di Jalan Puri Indah Raya, Kel. Kembangan Selatan, Kec. Kembangan, Kota Administrasi Jakarta Barat"@id,
+        "Event Dukungan acara Hari Bebas Kendaraan Bermotor (HBKB) Terbatas Tingkat Kota Administrasi Jakarta Barat diselenggarakan di Jalan Tomang Raya Kel. Jatipulo, Kec. Palmerah, Kota Adm. Jakarta Barat"@id .
+
+:Dukungan_acara_Peringatan_Tahun_Baru_Islam_1446_H_2024_M_Gebyar_Muharram__Pembukaan_Bazar_UMKM_dan_Buku_Islam_Sekaligus_Budaya_Jakarta a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Halaman Masjid Raya KH. Hasyim Asyari Jakarta, Jl. Daan Mogot KM 14,5 No. 14, Kel. Duri Kosambi, Kec. Cengkareng, Jakarta Barat" ;
+    rdfs:comment "Event Dukungan acara Peringatan Tahun Baru Islam 1446 H/ 2024 M Gebyar Muharram - Pembukaan Bazar UMKM dan Buku Islam Sekaligus Budaya Jakarta diselenggarakan di Halaman Masjid Raya KH. Hasyim Asyari Jakarta, Jl. Daan Mogot KM 14,5 No. 14, Kel. Duri Kosambi, Kec. Cengkareng, Jakarta Barat"@id .
+
+:Dukungan_acara_Pesta_Rakyat_Bazar_Jakarta_Entrepreneur_dalam_rangka_HUT_DKI a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Halaman Kantor Kelurahan Kembangan Selatan, Kec. Kembangan, Kota Administrasi Jakarta Selatan" ;
+    rdfs:comment "Event Dukungan acara Pesta Rakyat (Bazar Jakarta Entrepreneur dalam rangka HUT DKI) diselenggarakan di Halaman Kantor Kelurahan Kembangan Selatan, Kec. Kembangan, Kota Administrasi Jakarta Selatan"@id .
+
+:Dukungan_acara_Semarak_Jakarta_Barat_agenda_Seni_dan_Olah_Raga_SENIOR_dalam_rangka_HUT_RI_Ke79_tingkat_Kota_Administrasi_Jakarta_Barat_Tahun_2024 a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Halaman Parkir Timur Blok A Kantor Walikota Kota Administrasi Jakarta Barat" ;
+    rdfs:comment "Event Dukungan acara Semarak Jakarta Barat (agenda Seni dan Olah Raga (SENIOR) dalam rangka HUT RI Ke-79 tingkat Kota Administrasi Jakarta Barat Tahun 2024) diselenggarakan di Halaman Parkir Timur Blok A Kantor Walikota Kota Administrasi Jakarta Barat"@id .
+
+:Dukungan_acara_Wall_of_Art_Kota_Tua_Festival_Day_2024 a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Jalan Lada, Kelurahan Pinangsia, Kecamatan Tamansari, Jakarta Barat" ;
+    rdfs:comment "Event Dukungan acara Wall of Art Kota Tua Festival Day 2024 diselenggarakan di Jalan Lada, Kelurahan Pinangsia, Kecamatan Tamansari, Jakarta Barat"@id .
+
+:Dukungan_pada_Lebaran_Tenabang a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Metro Grosir Tanah Abang" ;
+    rdfs:comment "Event Dukungan pada Lebaran Tenabang diselenggarakan di Metro Grosir Tanah Abang"@id .
+
+:Dukungan_pada_acara_Festival_Bedug a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Halaman Kantor Walikota Jakarta Selatan" ;
+    rdfs:comment "Event Dukungan pada acara Festival Bedug diselenggarakan di Halaman Kantor Walikota Jakarta Selatan"@id .
+
+:Dukungan_pada_acara_Festival_Mikul_Buah a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Raya Ragunan" ;
+    rdfs:comment "Event Dukungan pada acara Festival Mikul Buah diselenggarakan di Jl. Raya Ragunan"@id .
+
+:Dukungan_pada_acara_Manggarai_Bersholawat a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Manggarai Utara 2" ;
+    rdfs:comment "Event Dukungan pada acara Manggarai Bersholawat diselenggarakan di Jl. Manggarai Utara 2"@id .
+
+:Dukungan_pada_acara_May_Day a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Halaman Kantor Walikota Jakarta Selatan" ;
+    rdfs:comment "Event Dukungan pada acara May Day diselenggarakan di Halaman Kantor Walikota Jakarta Selatan"@id .
+
+:Dukungan_pada_acara_Pembuatan_Aransemen_Lagu_Mars_Kekayaan_Intelektual a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "UPK. PBB Setu Babakan" ;
+    rdfs:comment "Event Dukungan pada acara Pembuatan Aransemen Lagu \"Mars\" Kekayaan Intelektual diselenggarakan di UPK. PBB Setu Babakan"@id .
+
+:Dukungan_pada_acara_Ramadhan_di_Jakarta_Pasar_Kreatif a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Taman Tebet Ecopark" ;
+    rdfs:comment "Event Dukungan pada acara Ramadhan di Jakarta Pasar Kreatif diselenggarakan di Taman Tebet Ecopark"@id .
+
+:Dukungan_pada_acara_Semarak_Budaya_Tahun_2025 a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Kantor Kelurahan Ciganjur" ;
+    rdfs:comment "Event Dukungan pada acara Semarak Budaya Tahun 2025 diselenggarakan di Kantor Kelurahan Ciganjur"@id .
+
+:Dukungan_pada_acara_Senopati_Festival a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Senopati Dalam II" ;
+    rdfs:comment "Event Dukungan pada acara Senopati Festival diselenggarakan di Jl. Senopati Dalam II"@id .
+
+:Dukungan_rangkaian_acara_Gembira_Bersama_Jakarta_Barat_memeriahkan_HUT_ke497_Kota_Jakarta a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Halaman Parkir Sisi Selatan Blok B, Kantor Walikota Kota Administrasi Jakarta Barat" ;
+    rdfs:comment "Event Dukungan rangkaian acara Gembira Bersama Jakarta Barat (memeriahkan HUT ke-497 Kota Jakarta) diselenggarakan di Halaman Parkir Sisi Selatan Blok B, Kantor Walikota Kota Administrasi Jakarta Barat"@id .
+
+:Eastravaganza_New_Year_Show a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Gading Festival",
+        "Old Shanghai Sedayu CIty" ;
+    rdfs:comment "Event Eastravaganza New Year Show diselenggarakan di Gading Festival"@id,
+        "Event Eastravaganza New Year Show diselenggarakan di Old Shanghai Sedayu CIty"@id .
+
+:Festival_Humanoid a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Taman Fatahillah ( Kota Tua )" ;
+    rdfs:comment "Event Festival Humanoid diselenggarakan di Taman Fatahillah ( Kota Tua )"@id .
+
+:Festival_Lebaran_Cipayung a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Kawasan Agro Wisata Cilangkap" ;
+    rdfs:comment "Event Festival Lebaran Cipayung diselenggarakan di Kawasan Agro Wisata Cilangkap"@id .
+
+:Festival_Passer_Baroe a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Antara, Pasar Baru" ;
+    rdfs:comment "Event Festival Passer Baroe diselenggarakan di Jl. Antara, Pasar Baru"@id .
+
+:Gedung_Bappenas_Ruang_Sekretariat_Menteri a dbo:HistoricBuilding,
+        schema1:LandmarksOrHistoricalBuildings,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Taman Suropati No.2" ;
+    rdfs:comment "Gedung Bappenas Ruang Sekretariat Menteri adalah cagar budaya di Jl. Taman Suropati No.2"@id .
+
+:Gedung_Blok_A_Kompleks_Balaikota_DKI_Jakarta a dbo:HistoricBuilding,
+        schema1:LandmarksOrHistoricalBuildings,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Medan Merdeka Sel. No.8-9 RT 11/RW 2" ;
+    rdfs:comment "Gedung Blok A Kompleks Balaikota DKI Jakarta adalah cagar budaya di Jl. Medan Merdeka Sel. No.8-9 RT 11/RW 2"@id .
+
+:Gedung_Ex_Chartered_Bank a dbo:HistoricBuilding,
+        schema1:LandmarksOrHistoricalBuildings,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Kalibesar Barat Nomor 1-2" ;
+    rdfs:comment "Gedung Ex Chartered Bank adalah cagar budaya di Jl. Kalibesar Barat Nomor 1-2"@id .
+
+:Gereja_Santa_Maria_de_Fatima a dbo:HistoricBuilding,
+        schema1:LandmarksOrHistoricalBuildings,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Kemenangan III No.47 RT.3/RW.2" ;
+    rdfs:comment "Gereja Santa Maria de Fatima adalah cagar budaya di Jl. Kemenangan III No.47 RT.3/RW.2"@id .
+
+:Gereja_Sion a dbo:HistoricBuilding,
+        schema1:LandmarksOrHistoricalBuildings,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Pangeran Jayakarta No.1" ;
+    rdfs:comment "Gereja Sion adalah cagar budaya di Jl. Pangeran Jayakarta No.1"@id .
+
+:Go_North_Jakarta_Fashion_Festival a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Pantjoran PIK" ;
+    rdfs:comment "Event Go North Jakarta Fashion Festival diselenggarakan di Pantjoran PIK"@id .
+
+:Hari_Bebas_Kendaraan_Bermotor a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Jalan Raya Pemuda" ;
+    rdfs:comment "Event Hari Bebas Kendaraan Bermotor diselenggarakan di Jalan Raya Pemuda"@id .
+
+:Indonesia_Dance_Festival a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Taman Ismail Marzuki" ;
+    rdfs:comment "Event Indonesia Dance Festival diselenggarakan di Taman Ismail Marzuki"@id .
+
+:Indonesia_Fashion_Week a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "JICC",
+        "Jakarta Convention Center" ;
+    rdfs:comment "Event Indonesia Fashion Week diselenggarakan di JICC"@id,
+        "Event Indonesia Fashion Week diselenggarakan di Jakarta Convention Center"@id .
+
+:Indonesia_International_Motor_Show a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "JIExpo Kemayoran" ;
+    rdfs:comment "Event Indonesia International Motor Show diselenggarakan di JIExpo Kemayoran"@id .
+
+:Irama_Ramadhan a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Lapangan Banteng",
+        "Masjid Istiqlal" ;
+    rdfs:comment "Event Irama Ramadhan diselenggarakan di Lapangan Banteng"@id,
+        "Event Irama Ramadhan diselenggarakan di Masjid Istiqlal"@id .
+
+:Jakarta_Beat_Society a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Taman Lapangan banteng" ;
+    rdfs:comment "Event Jakarta Beat Society diselenggarakan di Taman Lapangan banteng"@id .
+
+:Jakarta_Illumination_of_The_Island a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Pulau Pramuka" ;
+    rdfs:comment "Event Jakarta Illumination of The Island diselenggarakan di Pulau Pramuka"@id .
+
+:Jakarta_International_Java_Jazz_Festival a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "JIExpo Kemayoran" ;
+    rdfs:comment "Event Jakarta International Java Jazz Festival diselenggarakan di JIExpo Kemayoran"@id .
+
+:Jakarta_International_Marathon a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "DKI Jakarta" ;
+    rdfs:comment "Event Jakarta International Marathon diselenggarakan di DKI Jakarta"@id .
+
+:Kegiatan_Bimtek_PKT_Tahun_2024 a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Hotel Sunlake Sunter" ;
+    rdfs:comment "Event Kegiatan Bimtek PKT Tahun 2024 diselenggarakan di Hotel Sunlake Sunter"@id .
+
+:Kemitraan_HUT_DKI a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Taman Fatahillah ( Kota Tua )" ;
+    rdfs:comment "Event Kemitraan HUT DKI diselenggarakan di Taman Fatahillah ( Kota Tua )"@id .
+
+:Kemitraan_Hari_Kartini a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Taman Fatahillah ( Kota Tua )" ;
+    rdfs:comment "Event Kemitraan Hari Kartini diselenggarakan di Taman Fatahillah ( Kota Tua )"@id .
+
+:Lapangan_Banteng a dbo:HistoricBuilding,
+        schema1:LandmarksOrHistoricalBuildings,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Lapangan Banteng" ;
+    rdfs:comment "Lapangan Banteng adalah cagar budaya di Jl. Lapangan Banteng"@id .
+
+:Lebaran_Betawi a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Area Kawasan Monumen Nasional" ;
+    rdfs:comment "Event Lebaran Betawi diselenggarakan di Area Kawasan Monumen Nasional"@id .
+
+:Lebaran_di_Jakarta a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Pantai Lagoon Ancol",
+        "Taman Link In Park, Cempaka Putih",
+        "UPK. PBB Setu Babakan" ;
+    rdfs:comment "Event Lebaran di Jakarta diselenggarakan di Pantai Lagoon Ancol"@id,
+        "Event Lebaran di Jakarta diselenggarakan di Taman Link In Park, Cempaka Putih"@id,
+        "Event Lebaran di Jakarta diselenggarakan di UPK. PBB Setu Babakan"@id .
+
+:Living_Museum_Roemah_Toegoe a dbo:Museum,
+        schema1:Museum,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Raya Tugu No.7 Kota Administrasi Jakarta Utara" ;
+    rdfs:comment "Living Museum Roemah Toegoe adalah museum yang terletak di Jl. Raya Tugu No.7 Kota Administrasi Jakarta Utara"@id .
+
+:Malam_Final_Pemilihan_Abang_None_Jakarta_Timur a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Sasono Langen Budoyo TMII" ;
+    rdfs:comment "Event Malam Final Pemilihan Abang None Jakarta Timur diselenggarakan di Sasono Langen Budoyo TMII"@id .
+
+:Malam_Final_Pemilihan_Abang_None_Jakarta_Utara_2024 a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "The UBM Grand Auditorium" ;
+    rdfs:comment "Event Malam Final Pemilihan Abang None Jakarta Utara 2024 diselenggarakan di The UBM Grand Auditorium"@id .
+
+:Malam_Final_Pemilihan_Abang_dan_None_Jakarta_2024 a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "MNC Tower" ;
+    rdfs:comment "Event Malam Final Pemilihan Abang dan None Jakarta 2024 diselenggarakan di MNC Tower"@id .
+
+:Malam_Final_Pemilihan_Abang_dan_None_Jakarta_Pusat a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Auditorium Abdul Rachman Saleh RRI Jakarta" ;
+    rdfs:comment "Event Malam Final Pemilihan Abang dan None Jakarta Pusat diselenggarakan di Auditorium Abdul Rachman Saleh RRI Jakarta"@id .
+
+:Malam_Jaya_Raya__Jakarta_Night_Carnival a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Monumen Nasional" ;
+    rdfs:comment "Event Malam Jaya Raya - Jakarta Night Carnival diselenggarakan di Monumen Nasional"@id .
+
+:Marmer_Monumen_Nasional a dbo:HistoricBuilding,
+        schema1:LandmarksOrHistoricalBuildings,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Taman Silang Monas" ;
+    rdfs:comment "Marmer Monumen Nasional adalah cagar budaya di Jl. Taman Silang Monas"@id .
+
+:Monasweek a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Area Kawasan Monumen Nasional" ;
+    rdfs:comment "Event Monasweek diselenggarakan di Area Kawasan Monumen Nasional"@id .
+
+:Museum_Astra a dbo:Museum,
+        schema1:Museum,
+        owl:NamedIndividual ;
+    schema1:address "PT Astra International Tbk Jl. Gaya Motor Raya No.8 Sunter II - Jakarta Utara" ;
+    rdfs:comment "Museum Astra adalah museum yang terletak di PT Astra International Tbk Jl. Gaya Motor Raya No.8 Sunter II - Jakarta Utara"@id .
+
+:Museum_Bahari a dbo:HistoricBuilding,
+        schema1:LandmarksOrHistoricalBuildings,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Pasar Ikan I No. 1" ;
+    rdfs:comment "Museum Bahari adalah cagar budaya di Jl. Pasar Ikan I No. 1"@id .
+
+:Museum_Keprajuritan_Indonesia a dbo:Museum,
+        schema1:Museum,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Taman Mini Indonesia Indah RT 7 RW 2 Ceger Cipayung Jakarta Timur" ;
+    rdfs:comment "Museum Keprajuritan Indonesia adalah museum yang terletak di Jl. Taman Mini Indonesia Indah RT 7 RW 2 Ceger Cipayung Jakarta Timur"@id .
+
+:Museum_MH_Thamrin a dbo:HistoricBuilding,
+        schema1:LandmarksOrHistoricalBuildings,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Kenari II No.15" ;
+    rdfs:comment "Museum MH Thamrin adalah cagar budaya di Jl. Kenari II No.15"@id .
+
+:Museum_Prasasti a dbo:Museum,
+        schema1:Museum,
+        owl:NamedIndividual ;
+    schema1:address "Jl Tanah Abang 1 No 1 Kota Administrasi Jakarta Pusat" ;
+    rdfs:comment "Museum Prasasti adalah museum yang terletak di Jl Tanah Abang 1 No 1 Kota Administrasi Jakarta Pusat"@id .
+
+:Museum_Sasmitaloka_Jenderal_Ahmad_Yani a dbo:Museum,
+        schema1:Museum,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Lembang No D58 Menteng Jakarta Pusat" ;
+    rdfs:comment "Museum Sasmitaloka Jenderal Ahmad Yani adalah museum yang terletak di Jl. Lembang No D58 Menteng Jakarta Pusat"@id .
+
+:North_Jazz_Festival_2024 a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Alun-Alun Batavia PIK" ;
+    rdfs:comment "Event North Jazz Festival 2024 diselenggarakan di Alun-Alun Batavia PIK"@id .
+
+:Panggung_Hiburan a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Area Kawasan Monumen Nasional" ;
+    rdfs:comment "Event Panggung Hiburan diselenggarakan di Area Kawasan Monumen Nasional"@id .
+
+:Panggung_Hiburan_Malam_Jaya_Raya_Pasar_Malam_dan_Parkir_IRTI a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "MONAS" ;
+    rdfs:comment "Event Panggung Hiburan Malam Jaya Raya Pasar Malam dan Parkir IRTI diselenggarakan di MONAS"@id .
+
+:Pasar_keliling_Bloom_and_Blessing_Ramadan a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "One Satrio Kuningan" ;
+    rdfs:comment "Event Pasar keliling \"Bloom and Blessing Ramadan\" diselenggarakan di One Satrio Kuningan"@id .
+
+:Pemberdayaan_Pelaku_Ekonomi_Kreatif_di_Ruang_Publik_dan_Destinasi_Wisata_Urban a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Pelataran Museum Fatahillah, Kota Administrasi Jakarta Barat",
+        "Petak Enam, Jalan Pancoran No. 43, Glodok, Kota Adm. Jakarta Barat",
+        "Pulau Harapan",
+        "Pulau Pramuka",
+        "Taman Cattleya, Jl. Letjen S. Parman, Kel. Kemanggisan, Kec. Palmerah, Kota Administrasi Jakarta Barat" ;
+    rdfs:comment "Event Pemberdayaan Pelaku Ekonomi Kreatif di Ruang Publik dan Destinasi Wisata Urban diselenggarakan di Pelataran Museum Fatahillah, Kota Administrasi Jakarta Barat"@id,
+        "Event Pemberdayaan Pelaku Ekonomi Kreatif di Ruang Publik dan Destinasi Wisata Urban diselenggarakan di Petak Enam, Jalan Pancoran No. 43, Glodok, Kota Adm. Jakarta Barat"@id,
+        "Event Pemberdayaan Pelaku Ekonomi Kreatif di Ruang Publik dan Destinasi Wisata Urban diselenggarakan di Pulau Harapan"@id,
+        "Event Pemberdayaan Pelaku Ekonomi Kreatif di Ruang Publik dan Destinasi Wisata Urban diselenggarakan di Pulau Pramuka"@id,
+        "Event Pemberdayaan Pelaku Ekonomi Kreatif di Ruang Publik dan Destinasi Wisata Urban diselenggarakan di Taman Cattleya, Jl. Letjen S. Parman, Kel. Kemanggisan, Kec. Palmerah, Kota Administrasi Jakarta Barat"@id .
+
+:Penampilan_Irama_Jakarta a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Masjid Istiqlal, Gambir" ;
+    rdfs:comment "Event Penampilan Irama Jakarta diselenggarakan di Masjid Istiqlal, Gambir"@id .
+
+:Pentas_Seni a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Area Kawasan Monumen Nasional" ;
+    rdfs:comment "Event Pentas Seni diselenggarakan di Area Kawasan Monumen Nasional"@id .
+
+:Penyelenggaraan_Festival_Malam_Tahun_Baru_Malam_Muda_Mudi a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Jalan Sudirman - Thamrin" ;
+    rdfs:comment "Event Penyelenggaraan Festival Malam Tahun Baru (Malam Muda Mudi) diselenggarakan di Jalan Sudirman - Thamrin"@id .
+
+:Penyelenggaraan_Festival_Malam_Tahun_Baru_Pesona_Dekade a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Lapangan Banteng" ;
+    rdfs:comment "Event Penyelenggaraan Festival Malam Tahun Baru (Pesona Dekade) diselenggarakan di Lapangan Banteng"@id .
+
+:Penyelenggaraan_Jakarta_Light_Festival a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Lapangan Banteng" ;
+    rdfs:comment "Event Penyelenggaraan Jakarta Light Festival diselenggarakan di Lapangan Banteng"@id .
+
+:Penyelenggaraan_Malam_Tahun_Baru_Jakarta_Barat_Kemilau_2024_Jakarta_Kota_Global a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Halaman Kantor Walikota Kota Adm. Jakarta Barat" ;
+    rdfs:comment "Event Penyelenggaraan Malam Tahun Baru \"Jakarta Barat Kemilau 2024, Jakarta Kota Global\" diselenggarakan di Halaman Kantor Walikota Kota Adm. Jakarta Barat"@id .
+
+:Pokdarwis_Jakarta_Utara a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Hotel Swissbelinn Kemayoran dan Setu Babakan" ;
+    rdfs:comment "Event Pokdarwis Jakarta Utara diselenggarakan di Hotel Swissbelinn Kemayoran dan Setu Babakan"@id .
+
+:Pusat_Pelatihan_dan_Pengembangan_Pendidikan_P4 a dbo:HistoricBuilding,
+        schema1:LandmarksOrHistoricalBuildings,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Kerajinan No. 3 RT10/RW1" ;
+    rdfs:comment "Pusat Pelatihan dan Pengembangan Pendidikan (P4) adalah cagar budaya di Jl. Kerajinan No. 3 RT10/RW1"@id .
+
+:Rumah_Yayasan_Piatu_Muslimin a dbo:HistoricBuilding,
+        schema1:LandmarksOrHistoricalBuildings,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Kramat Raya No.11" ;
+    rdfs:comment "Rumah Yayasan Piatu Muslimin adalah cagar budaya di Jl. Kramat Raya No.11"@id .
+
+:SDN_Palmerah_07_Pagi a dbo:HistoricBuilding,
+        schema1:LandmarksOrHistoricalBuildings,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Palmerah Utara IV No.88 RT.1/RW.7" ;
+    rdfs:comment "SDN Palmerah 07 Pagi adalah cagar budaya di Jl. Palmerah Utara IV No.88 RT.1/RW.7"@id .
+
+:SDN_Senen_03_Pagi a dbo:HistoricBuilding,
+        schema1:LandmarksOrHistoricalBuildings,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Dr. Abdul Rahman Saleh I No.8 9" ;
+    rdfs:comment "SDN Senen 03 Pagi adalah cagar budaya di Jl. Dr. Abdul Rahman Saleh I No.8 9"@id .
+
+:Semarak_HUT_Jakarta a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Kota Tua" ;
+    rdfs:comment "Event Semarak HUT Jakarta diselenggarakan di Kota Tua"@id .
+
+:Stasiun_Jatinegara__Elevated_Main_Line_MA01Jatinegara a dbo:HistoricBuilding,
+        schema1:LandmarksOrHistoricalBuildings,
+        owl:NamedIndividual ;
+    schema1:address "Jl.Raya Bekasi Barat" ;
+    rdfs:comment "Stasiun Jatinegara - Elevated Main Line MA-01-Jatinegara adalah cagar budaya di Jl.Raya Bekasi Barat"@id .
+
+:Stasiun_Pasar_Senen a dbo:HistoricBuilding,
+        schema1:LandmarksOrHistoricalBuildings,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Pasar Senen Nomor 14" ;
+    rdfs:comment "Stasiun Pasar Senen adalah cagar budaya di Jl. Pasar Senen Nomor 14"@id .
+
+:Storage_Museum_Sejarah_Jakarta a dbo:HistoricBuilding,
+        schema1:LandmarksOrHistoricalBuildings,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Taman Fatahillah No. 1" ;
+    rdfs:comment "Storage Museum Sejarah Jakarta adalah cagar budaya di Jl. Taman Fatahillah No. 1"@id .
+
+:Tugu_Monumen_Nasional a dbo:HistoricBuilding,
+        schema1:LandmarksOrHistoricalBuildings,
+        owl:NamedIndividual ;
+    schema1:address "Jl. Taman Silang Monas" ;
+    rdfs:comment "Tugu Monumen Nasional adalah cagar budaya di Jl. Taman Silang Monas"@id .
+
+:Velo_Sports_Day a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Jakarta International Velodrome" ;
+    rdfs:comment "Event Velo Sports Day diselenggarakan di Jakarta International Velodrome"@id .
+
+:Wisata_Religi_bertema_Nyok_Wisata_Religi_ke_Utara a dbo:Event,
+        schema1:Event,
+        owl:NamedIndividual ;
+    schema1:address "Masjid-masjid di Jakarta Utara" ;
+    rdfs:comment "Event Wisata Religi bertema Nyok Wisata Religi ke Utara diselenggarakan di Masjid-masjid di Jakarta Utara"@id .
+
+schema1:address a owl:AnnotationProperty .
+
+<http://www.co-ode.org/ontologies/ont.owl#alamatLengkap> a owl:DatatypeProperty ;
+    rdfs:domain dbo:Museum ;
+    rdfs:range xsd:string .
+
+<http://www.co-ode.org/ontologies/ont.owl#deskripsiSingkat> a owl:DatatypeProperty ;
+    rdfs:domain dbo:HistoricBuilding ;
+    rdfs:range xsd:token .
+
+<http://www.co-ode.org/ontologies/ont.owl#isHeIdAt> a owl:ObjectProperty ;
+    rdfs:domain dbo:Event ;
+    rdfs:range <http://www.co-ode.org/ontologies/ont.owl#PlaceOfInterest> .
+
+<http://www.co-ode.org/ontologies/ont.owl#locatedInDistrict> a owl:ObjectProperty ;
+    rdfs:domain <http://www.co-ode.org/ontologies/ont.owl#PlaceOfInterest> .
+
+<http://www.co-ode.org/ontologies/ont.owl#namaResmi> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.co-ode.org/ontologies/ont.owl#PlaceOfInterest> ;
+    rdfs:range xsd:string .
+
+owl:topObjectProperty a owl:InverseFunctionalProperty,
+        owl:ObjectProperty .
+
+owl:Thing rdfs:subClassOf owl:Thing .
+
+schema1:Museum a owl:Class ;
+    rdfs:subClassOf dbo:Museum .
+
+<http://www.co-ode.org/ontologies/ont.owl#PlaceOfInterest> a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+dbo:Museum a owl:Class ;
+    rdfs:subClassOf <http://www.co-ode.org/ontologies/ont.owl#PlaceOfInterest> .
+
+schema1:LandmarksOrHistoricalBuildings a owl:Class ;
+    rdfs:subClassOf dbo:HistoricBuilding .
+
+dbo:HistoricBuilding a owl:Class ;
+    rdfs:subClassOf <http://www.co-ode.org/ontologies/ont.owl#PlaceOfInterest> .
+
+schema1:Event a owl:Class ;
+    rdfs:subClassOf dbo:Event .
+
+dbo:Event a owl:Class ;
+    rdfs:subClassOf <http://www.co-ode.org/ontologies/ont.owl#PlaceOfInterest> .
+
+[] a owl:Ontology .
+
