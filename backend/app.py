@@ -7,7 +7,7 @@ import os
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key_here'  # Change this in production
-CORS(app)
+CORS(app, supports_credentials=True)
 
 import os
 # Load the graph
@@ -57,6 +57,7 @@ def get_data():
     PREFIX dbo: <http://dbpedia.org/ontology/>
     PREFIX schema: <http://schema.org/>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     
     SELECT ?subject ?type ?comment ?address
     WHERE {
@@ -164,12 +165,14 @@ def get_admin_events():
     PREFIX dbo: <http://dbpedia.org/ontology/>
     PREFIX schema: <http://schema.org/>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     
-    SELECT ?subject ?comment ?address
+    SELECT ?subject ?type ?comment ?address
     WHERE {
-        ?subject rdf:type dbo:Event .
+        ?subject rdf:type ?type .
         OPTIONAL { ?subject rdfs:comment ?comment } .
         OPTIONAL { ?subject schema:address ?address } .
+        FILTER (?type IN (dbo:Event, dbo:HistoricBuilding, dbo:Museum, schema:Event, schema:LandmarksOrHistoricalBuildings, schema:Museum))
     }
     """
     
@@ -180,6 +183,7 @@ def get_admin_events():
         events.append({
             "id": local_name,
             "uri": subject,
+            "type": str(row.type).split("/")[-1],
             "name": local_name.replace("_", " "),
             "description": str(row.comment) if row.comment else "",
             "address": str(row.address) if row.address else ""
@@ -192,22 +196,32 @@ def get_admin_events():
 def add_event():
     data = request.get_json()
     name = data.get('name')
+    type_name = data.get('type', 'Event')
     description = data.get('description', '')
     address = data.get('address', '')
     
     if not name:
         return jsonify({"error": "Name is required"}), 400
     
+    # Map type_name to URIs
+    type_map = {
+        'Event': DBO.Event,
+        'Museum': DBO.Museum,
+        'HistoricBuilding': DBO.HistoricBuilding,
+        'LandmarksOrHistoricalBuildings': SCHEMA.LandmarksOrHistoricalBuildings
+    }
+    rdf_type = type_map.get(type_name, DBO.Event)
+    
     # Create URI
     resource_id = name.replace(" ", "_")
     uri = HERITAGE[resource_id]
     
     # Check if already exists
-    if (uri, RDF.type, DBO.Event) in g:
-        return jsonify({"error": "Event already exists"}), 400
+    if (uri, RDF.type, rdf_type) in g:
+        return jsonify({"error": "Resource already exists"}), 400
     
     # Add triples
-    g.add((uri, RDF.type, DBO.Event))
+    g.add((uri, RDF.type, rdf_type))
     if description:
         g.add((uri, RDFS.comment, rdflib.Literal(description)))
     if address:
@@ -221,9 +235,16 @@ def add_event():
 def delete_event(resource_id):
     uri = HERITAGE[resource_id]
     
-    # Check if exists
-    if (uri, RDF.type, DBO.Event) not in g:
-        return jsonify({"error": "Event not found"}), 404
+    # Check if exists (any of our tracked types)
+    possible_types = [DBO.Event, DBO.Museum, DBO.HistoricBuilding, SCHEMA.LandmarksOrHistoricalBuildings, SCHEMA.Museum, SCHEMA.Event]
+    is_found = False
+    for t in possible_types:
+        if (uri, RDF.type, t) in g:
+            is_found = True
+            break
+            
+    if not is_found:
+        return jsonify({"error": "Resource not found"}), 404
     
     # Remove all triples for this event
     triples_to_remove = list(g.triples((uri, None, None)))
